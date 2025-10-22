@@ -1,0 +1,130 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 основных команд Git"
+            android:textSize="34sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Git — система контроля версий для отслеживания изменений в коде. Вот ключевые команды для работы."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. git init"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Создаёт новый репозиторий Git в текущей директории."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. git clone &lt;url&gt;"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Клонирует репозиторий из удалённого источника (например, с GitHub)."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. git add &lt;file&gt;"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Добавляет файлы в индекс (подготавливает к коммиту)."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. git commit -m ''Сообщение'' "
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Фиксирует изменения с указанным комментарием."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. git status"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Показывает текущее состояние репозитория (изменённые, новые файлы и т.д.)."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. git push"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Отправляет локальные коммиты в удалённый репозиторий."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. git pull"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Загружает изменения из удалённого репозитория и сливает их с локальной веткой."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. git branch"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Показывает список веток репозитория. С флагом -b создаёт новую ветку."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. git checkout &lt;ветка&gt;"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Переключается на указанную ветку или восстанавливает файлы."
+            android:textSize="14sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. git merge &lt;ветка&gt;"
+            android:layout_marginTop="16dp"
+            android:textSize="34sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Объединяет указанную ветку с текущей. Используется для интеграции изменений."
+            android:textSize="14sp" />
+    </LinearLayout>
+</ScrollView>
